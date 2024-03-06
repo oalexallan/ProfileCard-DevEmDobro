@@ -22,10 +22,11 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(255, 235, 209);
     height: 350px;
     width: 360px;
     border-radius: 5%;
+    box-shadow: -5px 5px 15px black;
 }
 .informacao{
     display: flex;
@@ -34,11 +35,15 @@ hr{
     align-items: center;
 }
 
-img{
+.img{
+    background: url(../imagem/20221021221722_IMG_7956_2.jpeg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 1em;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    box-shadow: -5px 5px 15px black;
 }
 .nome{
     text-align: center;
@@ -46,6 +51,7 @@ img{
 .cidade {
     color: var(--text-color);
     text-align: center;
+    margin: 10px 0;
 }
 span{
     color: var( --text-color);
